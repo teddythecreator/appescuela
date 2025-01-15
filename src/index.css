@@ -3,11 +3,43 @@
 @tailwind utilities;
 
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  --primary-color: #16a34a;
+}
+
+:root[data-theme='dark'] {
+  --bg-primary: #1a1a1a;
+  --text-primary: #ffffff;
+}
+
+:root[data-theme='light'] {
+  --bg-primary: #ffffff;
+  --text-primary: #000000;
+}
+
+:root[data-orientation='rtl'] {
+  direction: rtl;
+}
+
+:root[data-orientation='ltr'] {
+  direction: ltr;
 }
 
 body {
   margin: 0;
   min-width: 320px;
   min-height: 100vh;
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+}
+
+.primary-color {
+  color: var(--primary-color);
+}
+
+.bg-primary {
+  background-color: var(--primary-color);
+}
+
+.border-primary {
+  border-color: var(--primary-color);
 }

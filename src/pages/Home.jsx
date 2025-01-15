@@ -1,8 +1,9 @@
 import { Link } from 'react-router-dom';
+import SettingsButton from '../components/SettingsButton';
 
 const Home = () => {
   return (
-    <div className="min-h-screen bg-gray-100">
+    <div className="min-h-screen bg-gray-100 relative">
       <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
         {/* Header Section */}
         <div className="text-center mb-16">
@@ -101,6 +102,7 @@ const Home = () => {
           </div>
         </div>
       </div>
+      <SettingsButton />
     </div>
   );
 };
