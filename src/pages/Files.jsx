@@ -11,7 +11,7 @@ const Files = () => {
 
   return (
     <div className="p-4">
-      <h1 className="text-2xl font-bold mb-4">File Management</h1>
+      <h1 className="text-2xl font-bold mb-4">Gestión de archivos</h1>
       
       <div
         {...getRootProps()}
@@ -20,16 +20,16 @@ const Files = () => {
       >
         <input {...getInputProps()} />
         {isDragActive ? (
-          <p className="text-indigo-600">Drop the files here...</p>
+          <p className="text-indigo-600">Suelta los archivos aquí...</p>
         ) : (
           <p className="text-gray-600">
-            Drag 'n' drop some files here, or click to select files
+            Arrastre y suelte algunos archivos aquí o haga clic para seleccionar archivos
           </p>
         )}
       </div>
 
       <div className="mt-8">
-        <h2 className="text-xl font-semibold mb-4">Uploaded Files</h2>
+        <h2 className="text-xl font-semibold mb-4">Archivos subidos</h2>
         {/* File list will go here */}
       </div>
     </div>

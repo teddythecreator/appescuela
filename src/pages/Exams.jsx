@@ -35,9 +35,9 @@ const Exams = () => {
   return (
     <div className="p-6">
       <div className="mb-6 flex justify-between items-center">
-        <h1 className="text-2xl font-bold">Exams Schedule</h1>
+        <h1 className="text-2xl font-bold">Calendario de exámenes</h1>
         <button className="bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700">
-          Add Exam
+        Agregar examen
         </button>
       </div>
 
@@ -56,7 +56,7 @@ const Exams = () => {
 
         <div className="space-y-4">
           <div className="bg-white p-4 rounded-lg shadow">
-            <h2 className="text-lg font-semibold mb-4">Upcoming Exams</h2>
+            <h2 className="text-lg font-semibold mb-4">Próximos exámenes</h2>
             {exams.map((exam) => (
               <div
                 key={exam.id}
@@ -74,14 +74,14 @@ const Exams = () => {
           </div>
 
           <div className="bg-white p-4 rounded-lg shadow">
-            <h2 className="text-lg font-semibold mb-4">Statistics</h2>
+            <h2 className="text-lg font-semibold mb-4">Estadística</h2>
             <div className="space-y-2">
               <div className="flex justify-between">
-                <span>Total Exams</span>
+                <span>Exámenes totales</span>
                 <span className="font-medium">{exams.length}</span>
               </div>
               <div className="flex justify-between">
-                <span>Upcoming Exams</span>
+                <span>Próximos exámenes</span>
                 <span className="font-medium">
                   {exams.filter((exam) => exam.start > new Date()).length}
                 </span>

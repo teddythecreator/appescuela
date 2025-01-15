@@ -40,21 +40,21 @@ const StudentDashboard = () => {
 
   return (
     <div className="p-6">
-      <h1 className="text-2xl font-bold mb-4">Student Dashboard</h1>
+      <h1 className="text-2xl font-bold mb-4">Dashboard Estudiantes</h1>
 
       {/* Grid sections */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
         <div className="bg-white p-6 rounded-lg shadow">
-          <h2 className="text-lg font-semibold mb-2">Current Courses</h2>
-          <p className="text-gray-600">View your enrolled courses and progress</p>
+          <h2 className="text-lg font-semibold mb-2">Cursos actuales</h2>
+          <p className="text-gray-600">Ver tus cursos inscritos y tu progreso</p>
         </div>
         <div className="bg-white p-6 rounded-lg shadow">
-          <h2 className="text-lg font-semibold mb-2">Upcoming Assignments</h2>
-          <p className="text-gray-600">Track your pending assignments</p>
+          <h2 className="text-lg font-semibold mb-2">Próximas tareas</h2>
+          <p className="text-gray-600">Realiza un seguimiento de tus tareas pendientes</p>
         </div>
         <div className="bg-white p-6 rounded-lg shadow">
-          <h2 className="text-lg font-semibold mb-2">Recent Grades</h2>
-          <p className="text-gray-600">Check your latest academic performance</p>
+          <h2 className="text-lg font-semibold mb-2">Calificaciones recientes</h2>
+          <p className="text-gray-600">Consulta tu último rendimiento académico</p>
         </div>
       </div>
 

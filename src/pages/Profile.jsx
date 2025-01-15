@@ -119,7 +119,7 @@ const Profile = () => {
                       type="submit"
                       className="w-full bg-blue-600 text-white rounded-md py-2 hover:bg-blue-700"
                     >
-                      Update Profile
+                      Actualizar perfil
                     </button>
                   </form>
                 </div>
@@ -130,7 +130,7 @@ const Profile = () => {
                   <form onSubmit={handlePasswordSubmit} className="space-y-4">
                     <div>
                       <label className="block text-sm font-medium text-gray-700">
-                        Current Password
+                      Contraseña actual
                       </label>
                       <input
                         type="password"
@@ -143,7 +143,7 @@ const Profile = () => {
                     </div>
                     <div>
                       <label className="block text-sm font-medium text-gray-700">
-                        New Password
+                      Nueva contraseña
                       </label>
                       <input
                         type="password"
@@ -156,7 +156,7 @@ const Profile = () => {
                     </div>
                     <div>
                       <label className="block text-sm font-medium text-gray-700">
-                        Confirm New Password
+                      Confirmar nueva contraseña
                       </label>
                       <input
                         type="password"
@@ -171,7 +171,7 @@ const Profile = () => {
                       type="submit"
                       className="w-full bg-blue-600 text-white rounded-md py-2 hover:bg-blue-700"
                     >
-                      Update Password
+                      Actualizar contraseña
                     </button>
                   </form>
                 </div>
@@ -211,7 +211,7 @@ const Profile = () => {
                     </div>
                     <div>
                       <label className="block text-sm font-medium text-gray-700">
-                        ZIP Code
+                      Código postal
                       </label>
                       <input
                         type="text"
@@ -225,7 +225,7 @@ const Profile = () => {
                         type="submit"
                         className="w-full bg-blue-600 text-white rounded-md py-2 hover:bg-blue-700"
                       >
-                        Update Address
+                        Actualizar dirección
                       </button>
                     </div>
                   </form>
@@ -237,7 +237,7 @@ const Profile = () => {
             <Tab.Panel>
               <div className="bg-white p-6 rounded-lg shadow">
                 <div className="mb-4 flex justify-between items-center">
-                  <h3 className="text-lg font-medium">My Events</h3>
+                  <h3 className="text-lg font-medium">Mis eventos</h3>
                   <button className="bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700">
                     Add Event
                   </button>
@@ -250,7 +250,7 @@ const Profile = () => {
             <Tab.Panel>
               <div className="bg-white p-6 rounded-lg shadow">
                 <div className="mb-4 flex justify-between items-center">
-                  <h3 className="text-lg font-medium">My Gallery</h3>
+                  <h3 className="text-lg font-medium">Mi galería</h3>
                   <button className="bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700">
                     Upload Photos
                   </button>
@@ -265,7 +265,7 @@ const Profile = () => {
             <Tab.Panel>
               <div className="bg-white p-6 rounded-lg shadow">
                 <div className="mb-4">
-                  <h3 className="text-lg font-medium">Upcoming Exams</h3>
+                  <h3 className="text-lg font-medium">Próximos exámenes</h3>
                 </div>
                 {/* Exam list will go here */}
               </div>

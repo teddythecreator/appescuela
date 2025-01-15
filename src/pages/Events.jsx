@@ -79,7 +79,7 @@ const Events = () => {
 
   return (
     <div className="p-6">
-      <h1 className="text-2xl font-bold mb-4">Events & Exams</h1>
+      <h1 className="text-2xl font-bold mb-4">Eventos & Examenes</h1>
       <div className="h-[calc(100vh-12rem)]">
         <Calendar
           localizer={localizer}
@@ -154,13 +154,13 @@ const Events = () => {
                         }
                         className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
                       >
-                        <option value="event">Event</option>
-                        <option value="exam">Exam</option>
+                        <option value="event">Evento</option>
+                        <option value="exam">Examen</option>
                       </select>
                     </div>
                     <div>
                       <label className="block text-sm font-medium text-gray-700">
-                        Description
+                        Descripción
                       </label>
                       <textarea
                         value={eventForm.description}
@@ -183,14 +183,14 @@ const Events = () => {
                           onClick={handleDuplicateEvent}
                           className="inline-flex justify-center rounded-md border border-transparent bg-blue-600 px-4 py-2 text-sm font-medium text-white hover:bg-blue-700"
                         >
-                          Duplicate
+                          Duplicar
                         </button>
                         <button
                           type="button"
                           onClick={handleDeleteEvent}
                           className="inline-flex justify-center rounded-md border border-transparent bg-red-600 px-4 py-2 text-sm font-medium text-white hover:bg-red-700"
                         >
-                          Delete
+                          Borrar
                         </button>
                       </>
                     )}
@@ -199,7 +199,7 @@ const Events = () => {
                       onClick={handleSaveEvent}
                       className="inline-flex justify-center rounded-md border border-transparent bg-indigo-600 px-4 py-2 text-sm font-medium text-white hover:bg-indigo-700"
                     >
-                      Save
+                      Guardar
                     </button>
                   </div>
                 </Dialog.Panel>

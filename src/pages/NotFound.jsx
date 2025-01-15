@@ -11,7 +11,7 @@ const NotFound = () => {
           to="/"
           className="mt-6 inline-block px-6 py-3 text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700"
         >
-          Go back home
+          Regresa a inicio
         </Link>
       </div>
       <SettingsButton />

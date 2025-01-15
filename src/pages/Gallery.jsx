@@ -21,7 +21,7 @@ const Gallery = () => {
 
   return (
     <div className="p-6">
-      <h1 className="text-2xl font-bold mb-6">Gallery</h1>
+      <h1 className="text-2xl font-bold mb-6">Galleria</h1>
       
       <div
         {...getRootProps()}
@@ -30,10 +30,10 @@ const Gallery = () => {
       >
         <input {...getInputProps()} />
         {isDragActive ? (
-          <p className="text-blue-600">Drop the images here...</p>
+          <p className="text-blue-600">Deja las imágenes aquí...</p>
         ) : (
           <p className="text-gray-600">
-            Drag 'n' drop images here, or click to select files
+            Arrastre y suelte las imágenes aquí o haga clic para seleccionar archivos
           </p>
         )}
       </div>
@@ -48,7 +48,7 @@ const Gallery = () => {
             />
             <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity rounded-lg flex items-center justify-center">
               <button className="text-white bg-red-600 px-4 py-2 rounded-md">
-                Delete
+                Borrar
               </button>
             </div>
           </div>
